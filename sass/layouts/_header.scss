@@ -90,3 +90,21 @@
 
    }
  }
+ .achievements{
+    
+    background-image: linear-gradient(to right top,rgb(29, 27, 27),rgb(92, 89, 89));
+}
+.achieve-head{
+    font-size: 3vw;
+    
+    color: rgb(255, 255, 255);
+   margin-left: 40%;
+   text-transform: uppercase;
+   font-style: italic;
+   
+   @include respond(phone){
+    font-size: 5vw;
+    margin-left: 25%;
+
+   }
+ }
