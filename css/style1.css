@@ -11,7 +11,8 @@ html {
 
 .image {
   width: 100%;
-  height: 95vh auto; }
+  height: 95vh auto;
+  padding: 2%; }
 
 .card:hover {
   transform: translateY(-5%); }
@@ -39,7 +40,7 @@ html {
   max-width: 100%; }
   @media (max-width: 600px) {
     .Home {
-      height: 85vh; } }
+      height: 90vh; } }
 
 .intro-main {
   color: white;
