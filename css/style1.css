@@ -5,6 +5,26 @@
 html {
   font-size: 62.5%; }
 
+.interests {
+  background-image: linear-gradient(to right top, rgba(29, 27, 27, 0.6), rgba(92, 89, 89, 0.5));
+  padding: 1%; }
+
+.card:hover {
+  transform: translateY(-5%); }
+  @media (max-width: 600px) {
+    .card:hover {
+      transform: none; } }
+
+.card-img-top {
+  width: fit-content;
+  height: 100%; }
+
+.card {
+  padding: 2%;
+  box-sizing: border-box;
+  border: black;
+  border-radius: 1px; }
+
 .Home {
   background-image: url("../images/back.jpg");
   background-position: top;
@@ -15,7 +35,7 @@ html {
   max-width: 100%; }
   @media (max-width: 600px) {
     .Home {
-      height: 80vh; } }
+      height: 75vh; } }
 
 .intro-main {
   color: white;
@@ -44,7 +64,7 @@ html {
   text-decoration: underline; }
   @media (max-width: 600px) {
     .info-head {
-      font-size: 8vw;
+      font-size: 7vw;
       margin-left: 0; } }
 
 .info {
@@ -53,7 +73,7 @@ html {
   color: #f3efef; }
   @media (max-width: 600px) {
     .info {
-      font-size: 6vw;
+      font-size: 5vw;
       margin-left: 0; } }
 
 .infoimage {
@@ -70,6 +90,22 @@ html {
       position: relative;
       float: right;
       justify-content: right; } }
+
+.About {
+  padding: 2%; }
+
+.interest-head {
+  font-size: 3vw;
+  font-weight: 900;
+  color: white;
+  margin-left: 40%;
+  text-transform: uppercase;
+  font-style: italic;
+  text-decoration: underline; }
+  @media (max-width: 600px) {
+    .interest-head {
+      font-size: 5vw;
+      margin-left: 25%; } }
 
 .navbar {
   background-color: #333;

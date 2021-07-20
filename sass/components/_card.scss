@@ -1,0 +1,16 @@
+.card:hover{
+    transform: translateY(-5%);
+    @include respond(phone){
+        transform: none;
+    }
+}
+.card-img-top{
+    width: fit-content;
+    height: 100%;
+}
+.card{
+    padding: 2%;
+   box-sizing: border-box;
+   border: black;
+   border-radius: 1px;
+}
