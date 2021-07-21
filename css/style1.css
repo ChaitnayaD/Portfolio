@@ -14,6 +14,10 @@ html {
   height: 95vh auto;
   padding: 2%; }
 
+.skills {
+  background-image: linear-gradient(to right top, rgba(29, 27, 27, 0.6), rgba(92, 89, 89, 0.5));
+  padding: 1%; }
+
 .card:hover {
   transform: translateY(-5%); }
   @media (max-width: 600px) {
@@ -150,7 +154,7 @@ html {
   color: white; }
 
 .fa-youtube {
-  background: #007bb5;
+  background: red;
   color: white; }
 
 .fa-instagram {
