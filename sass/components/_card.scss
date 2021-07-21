@@ -13,4 +13,20 @@
    box-sizing: border-box;
    border: black;
    border-radius: 1px;
+   @include respond(phone){
+   
+    padding: 5%;
+    
+    
+}
+}
+.card-img-top-1{
+    width: 100%;
+    height: auto;
+    @include respond(phone){
+        height: auto;
+        padding: 5%;
+        max-width: 100%;
+        justify-content: center;
+    }
 }
